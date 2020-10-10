@@ -8,15 +8,15 @@
 {
 	Worker *worker = NULL;
 
-	worker = new Employee(1, "ÕÅÈý", 110);
+	worker = new Employee(1, "å¼ ä¸‰", 110);
 	worker->showInfo();
 	delete worker;
 
-	worker = new Manager(2, "ÕÅÈý", 110);
+	worker = new Manager(2, "å¼ ä¸‰", 110);
 	worker->showInfo();
 	delete worker;
 
-	worker = new Boss(3, "ÕÅÈý", 110);
+	worker = new Boss(3, "å¼ ä¸‰", 110);
 	worker->showInfo();
 	delete worker;
 
@@ -31,7 +31,7 @@ int main()
 	while (true)
 	{
 		wm.Show_Menu();
-		cout << "ÇëÊäÈëÄúµÄÑ¡Ôñ£º" << endl;
+		cout << "è¯·è¾“å…¥æ‚¨çš„é€‰æ‹©ï¼š" << endl;
 		cin >> choice;
 
 		switch (choice)
